@@ -1,0 +1,436 @@
+.Content
+{
+    width: 100%;
+    height: 100%;
+    /* height:calc(72px - 100vh); */
+    /* background: #000; */
+    margin-top: 40px;
+    /* background-color: black; */
+    color: white;
+    background-image: url('./Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contentcontainer
+{
+    display: flex;
+}
+.MainLockup
+{
+    width: 500px;
+    height: fit-content;
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.MainLockup .Header
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.MainLockup .Header h2
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: white;
+    font-size: 29px;
+}
+.MainLockup .Pointer1
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.MainLockup .Pointer1 span
+{
+    color: #0096FF;
+    font-weight: 600;
+}
+.MainLockup .Pointer2 span
+{
+    color: #0096FF;
+    font-weight: 600;
+}
+.MainLockup .Pointer3 span
+{
+    color: #0096FF;
+    font-weight: 600;
+}
+.MainLockup .Pointer4 span
+{
+    color: #0096FF;
+    font-weight: 600;
+}
+.MainLockup .Pointer5 span
+{
+    color: #0096FF;
+    font-weight: 600;
+}
+.MainLockup .Pointer2
+{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.MainLockup .Pointer3
+{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.MainLockup .Pointer4
+{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.MainLockup .Pointer5
+{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.TextContainer
+{
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+/* Form */
+.Form
+{
+    margin: 15px 0;
+    width: 380px;
+    height: 558px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+.Progressbar
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.Progressbar .stage1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Progressbar .stage1 .text 
+{
+    color: #3c4852;
+    font-weight: 500;
+    /* font-family: 'Inter'; */
+}
+.Progressbar .stage2 .text 
+{
+    color: #3c4852;
+    font-weight: 500;
+}
+.Progressbar .stage1 .icon
+{
+    /* width: 15px; */
+    /* height: 15px; */
+    background-color: #0096FF;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 50%;
+}
+.Progressbar .stage2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Progressbar .stage2 .icon
+{
+    background-color: #0096FF;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 50%;
+}
+.Subscripbutionplan
+{
+    text-align: center;
+    color: #3c4852;
+    font-weight: 600;
+    margin: 5px 0px 10px 0px;
+}
+.textField1 .buttons input
+{
+    accent-color: grey;
+}
+.textField1
+{
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #BEBEBE;
+    position: relative;
+    background:
+    linear-gradient(0deg, #E7E7E7, #E7E7E7);
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.textField1 .Months
+{
+    margin-left: -50px;
+    color: #BEBEBE;
+    font-weight: 600;
+}
+.textField1 .total
+{
+    font-size: small;
+    color: #BEBEBE;
+    font-weight: 700;
+}
+.textField1::before
+{
+    position: absolute;
+    content: 'Offer expired';
+    left: 42px;
+    top: -2px;
+    background: #47BA68;
+    color: white;
+    font-size: 10px;
+    padding: 0px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.textField2
+{
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #47BA68;
+    position: relative;
+    /* background:#d7eddd; */
+    background:
+    linear-gradient(0deg, #d7eddd,#d7eddd);
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.textField2 .Months
+{
+    margin-left: -42px;
+    color: #3c4852;
+    font-weight: 600;
+}
+.textField2 .total
+{
+    font-size: small;
+    color: #3c4852;
+    font-weight: 700;
+}
+.mo
+{
+    color: #BEBEBE;
+}
+.textField2::before
+{
+    position: absolute;
+    content: 'Recommended';
+    left: 42px;
+    top: -2px;
+    background: #47BA68;
+    color: white;
+    font-size: 10px;
+    padding: 0px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.textField2 .buttons ion-icon
+{
+    width: 10px;
+    height: 10px;
+    background: #47BA68;
+    padding: 2px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.textField3
+{
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #BEBEBE;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.textField3 .Months
+{
+    margin-left: -48px;
+    color: #3c4852;
+    font-weight: 600;
+}
+.textField3 .total
+{
+    font-size: small;
+    color: #3c4852;
+    font-weight: 700;
+}
+.textField4
+{
+    margin: 10px 20px 15px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #BEBEBE;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.textField4 .Months
+{
+    margin-left: -55px;
+    color: #3c4852;
+    font-weight: 600;
+}
+.textField4 .total
+{
+    font-size: small;
+    color: #3c4852;
+    font-weight: 700;
+}
+.fee
+{
+    margin: 5px 20px;
+    display: flex;
+    gap: 150px;
+    padding: 0px 5px ;
+    color: #3c4852;
+    font-weight: 400;
+}
+
+.textField5
+{
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #FF0000;
+    position: relative;
+    /* background:#d7eddd; */
+    background:
+    linear-gradient(0deg, #d7eddd,#d7eddd);
+    ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    /* align-items: center; */
+    cursor: pointer;
+}
+.textField5 .offer
+{
+    display: flex;
+    color: #FF0000;
+    gap: 120px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.Validoffer
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #FF0000;
+    font-weight: 600;
+}
+/* Form */
+.TotalGST
+{
+    display: flex;
+    margin: 5px 20px;
+    padding: 5px;
+    gap: 130px;
+}
+.TotalGST div span
+{
+    font-weight: 600;
+    color: #3c4852;
+}
+.TotalGST span
+{
+    color: #3c4852;
+    font-weight: 700;
+}
+
+.Buttoncontainer
+{
+    display: flex;
+    margin: 5px 20px;
+    gap: 5px;
+}
+.Buttoncontainer .CancelBtn
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border: 2px solid #F77171;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #F77171;
+    cursor: pointer;
+}
+.Buttoncontainer .PayBtn
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 43px;
+    background: #47BA68;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 600;
+    color:white;
+    cursor: pointer;
+}
+
+.Iconcontainer
+{
+    margin: 5px 20px;
+}
